@@ -1,0 +1,23 @@
+/* -------- styling for the title for Tilst opening ----------------- */
+#coming_soon {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 5px;
+    font-family: futura, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* ------------- styling for the break between the title and the countdown -------------------- */
+
+#straight_line {
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* ---------------------------- this is the styling for the countdown clock ------------------ */
+
+#clock {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+    font-family: futura, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
