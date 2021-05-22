@@ -8,14 +8,11 @@
     box-sizing: border-box;
 }
 
-/*Background img*/ 
+/*Background img*/
 
-body{
-    background-image: url(../img/background.png);
-
-
+body {
+    background-image: url(../img/background2.jpg);
 }
-    
 
 
 /* who we are text section */
@@ -75,7 +72,7 @@ body{
 .second_map {
     width: 754px;
     height: 754px;
-    
+
 }
 
 .map_box {

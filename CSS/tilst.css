@@ -11,7 +11,7 @@
 /*Background img */
 
 body {
-    background-image: url(../img/background.png);
+    background-image: url(../img/background2.jpg);
 
 
 }
@@ -19,7 +19,7 @@ body {
 
 .tilst_header{
   color: #ffffff;
-  font-family: Futura Pt;
+  font-family: 'futura-pt';
   font-style: normal;
   font-weight: 450;
   font-size: 85px;
