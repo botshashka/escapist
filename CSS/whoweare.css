@@ -1,0 +1,62 @@
+/* Basic css stuff*/
+
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/*Background img */
+
+body{
+    background-image: url(../img/background.png);
+
+
+}
+    
+/* who we are text section */
+
+.text_box{
+    margin-left: 62px;
+    margin-top: 130px;
+    margin-bottom: -80px;
+    width: 800px;
+    height: 302px;
+}
+
+.header1{
+    color: #ffffff;  
+}
+
+.paragraph1{
+    color: #d4d4d4;
+}
+
+
+/* SoMe Icon section */
+
+.some_icons_box{
+    margin-left: 62px;
+    padding-top: 0px;
+}
+
+
+
+.some_icons{
+    width: 60px;
+}
+
+
+.first_map{
+    width: 754px;
+    height: 754px;
+    margin-left: 500px;
+}
+
+.second_map{
+    border-radius: 5px;
+    border-color: blueviolet;
+    margin-left: 150px;
+}
