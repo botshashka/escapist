@@ -1,9 +1,48 @@
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+
+/* ------- Header ------- */
+header{
+    display: flex;
+    height: 100px;
+    background-color: #0E0E0E;
+    justify-content: space-between;
+}
+
+.nav-items {
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.nav-items a {
+    margin-right: 68px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'futura-pt', Arial, Helvetica, sans-serif;
+    font-size: 21px;
+
+}
+
 /* -------- styling for the title for Tilst opening ----------------- */
 #coming_soon {
     text-align: center;
     font-size: 60px;
     margin-top: 5px;
-    font-family: futura, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'futura-pt', Arial, Helvetica, sans-serif
 }
 
 /* ------------- styling for the break between the title and the countdown -------------------- */
@@ -19,5 +58,5 @@
     text-align: center;
     font-size: 30px;
     margin-top: 40px;
-    font-family: futura, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "futura-pt", "Arial", sans-serif;
 }
