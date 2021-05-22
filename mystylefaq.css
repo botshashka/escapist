@@ -1,6 +1,7 @@
 
 body {
-    background-image: image("background.png");
+    background-image: url("img/background2.jpg");
+    background-color: 000000;
 }
 
 #container {
@@ -18,21 +19,29 @@ body {
 }
 
 #right {
-    padding-top: 30px;
+    padding-top: 10px;
     margin: 20px;
 }
 
 #faq_title {
-    font-family: futura, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 3rem;
+    font-family: 'futura-pt', 'Arial', sans-serif;
+    font-weight: 500;
+    font-size: 4rem;
+    color: white;
 }
 
 .faq_subtitle {
-    font-family: futura, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'futura-pt', 'Arial', sans-serif;
     font-size: 1.5rem;
+    letter-spacing: 1px;
+    color: white;
 }
 
 .faq_bodytext {
-    font-family: futura, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font: 1rem;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1.1pt;
+    font-weight: 300;
+    line-height: 26px;
+    font-size: 1.2rem;
+    color: #D4D4D4;
 }
