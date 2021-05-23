@@ -1,0 +1,84 @@
+/* Basic css stuff*/
+
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/*Background img*/
+
+body {
+    background-image: url(../img/background2.jpg);
+}
+
+
+/* who we are text section */
+
+.text_box {
+    margin-left: 62px;
+    margin-bottom: -80px;
+    width: 800px;
+    height: 302px;
+}
+
+.header1 {
+    color: #ffffff;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    padding-top: 130px;
+}
+
+.paragraph1 {
+    color: #d4d4d4;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+}
+
+
+/* SoMe Icon section */
+
+.some_icons_box {
+    margin-left: 62px;
+    margin-bottom: 140px;
+    padding-top: 240px;
+}
+
+
+
+.some_icons {
+    width: 60px;
+}
+
+
+/* Map locations */
+
+.first_map {
+    width: 754px;
+    height: 754px;
+    margin-left: 500px;
+}
+
+.second_map {
+    width: 754px;
+    height: 754px;
+
+}
+
+.map_box {
+    background-color: aqua;
+}
+
+.second_map_box {
+    background-color: brown;
+}
