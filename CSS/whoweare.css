@@ -63,10 +63,14 @@ body {
 
 /* Map locations */
 
+.map_container{
+    width: 1304px;
+}
+
 .first_map {
     width: 754px;
     height: 754px;
-    margin-left: 500px;
+    
 }
 
 .second_map {
@@ -76,9 +80,10 @@ body {
 }
 
 .map_box {
-    background-color: aqua;
-}
+    background-color:khaki;
+   } 
 
-.second_map_box {
-    background-color: brown;
+.map_box2 {
+    background-color: indigo;
+  
 }
