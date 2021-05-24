@@ -43,8 +43,40 @@ body {
     font-size: 22px;
     line-height: 30px;
     letter-spacing: 0.03em;
+
 }
 
+
+/* Contact Box */
+
+.contact_box{       
+    width: 638px;
+    height: 267px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    float: right;
+    margin-right: 133px;
+    margin-top: -100px;
+   }
+
+.contact_header{
+    color: #ffffff;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    
+}
+
+.contact_paragraph{
+    color: #d4d4d4;
+}
 
 /* SoMe Icon section */
 
