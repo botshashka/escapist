@@ -1,0 +1,47 @@
+/* Basic css stuff*/
+
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/*Background img*/
+
+body {
+    background-image: url(../img/background2.jpg);
+}
+
+
+/* Escape rooms descriptions text box */ 
+
+.escape_text_box{
+    background-color: coral;
+    color: #d4d4d4;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+}
+
+.escape_heading{
+    color: #d4d4d4;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+}
+
+
+/* Escape room divs */
+
+.escape_room_box{
+    margin-left: 500px;
+    background-color: coral;
+}
