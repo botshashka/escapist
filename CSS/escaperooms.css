@@ -41,21 +41,5 @@ body {
 
 /* Escape room divs */
 
-.escape_room_container {
-    background-color: crimson;
-    position: relative;
-    text-align: center;
-    color: white;
-    width: 800px;
-    height: 800px;
-}
 
-.USS_Trition_img {
-    width: 100%;
-}
 
-.Read_more_text{
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-}
