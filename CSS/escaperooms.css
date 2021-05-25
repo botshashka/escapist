@@ -11,7 +11,7 @@
 /*Background img*/
 
 body {
-    background-image: url(../img/background2.jpg);
+    background-color: chartreuse;
 }
 
 
@@ -41,5 +41,63 @@ body {
 
 /* Escape room divs */
 
+.first_escpaperoom_container {
+    background-color: brown;
+    flex-direction: column;
+}
 
 
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    height: 550px;
+    width: 550px;
+    margin-left: 200px;
+
+
+}
+
+
+
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: -25px;
+    left: 0px;
+}
+
+.Triton_heading {
+    position: absolute;
+    color: #ffffff;
+    font-family: Futura PT;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    width: 500px;
+    bottom: 30px;
+    left: -130px;
+
+}
+
+.read_more {
+    position: absolute;
+    color: #ffffff;
+    font-family: Futura PT;
+    font-style: normal;
+    font-weight: normal;
+    width: 200px;
+    bottom: 20px;
+    left: -20px;
+    font-size: 24px;
+}
+
+.container2 {
+        position: relative;
+        text-align: center;
+        height: 550px;
+        width: 550px;
+        margin-left: 200px;
+
+
+    }
