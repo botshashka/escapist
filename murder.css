@@ -4,8 +4,7 @@ body{
   background-color: #0b121b;
   color: #fafafa;
 }
-
-
+/* top part of the page */
 
 .top_box{
   width: 100%;
@@ -15,7 +14,7 @@ body{
   
 }
 
-
+/* left part of the page */
 .left_part{
   width: 40%;
   float: left;
@@ -41,7 +40,7 @@ body{
   
 }
 
-
+/* aligning the svg with text */
 .alignffs, .texxt  {
   vertical-align: middle;
   display: inline-block;
@@ -79,7 +78,7 @@ body{
   
 }
 
-
+ 
 .rigth_part{
   width: 40%;
   float:right;
@@ -94,7 +93,7 @@ body{
  font-weight: normal;
 }
 
-
+/* the list of prices */
 .list_style{
   font-weight: lighter;
   margin-left: -40px;
@@ -115,7 +114,7 @@ body{
 
 
 
-
+/* grid for arranging the images */
 
 .grid_container{
   display: grid;
