@@ -11,93 +11,109 @@
 /*Background img*/
 
 body {
-    background-color: chartreuse;
+    background-color: black;
+    color: #ffffff;
 }
 
 
 /* Escape rooms descriptions text box */
 
 .escape_text_box {
-    background-color: coral;
+   
     color: #d4d4d4;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
+    font-family: Futura PT,sans-serif;
+    font-weight: lighter;
     font-size: 22px;
     line-height: 30px;
     letter-spacing: 0.03em;
+    margin-left: 20px;
+    padding-right: 100px;
 }
 
 .escape_heading {
     color: #d4d4d4;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 22px;
+    font-family: Futura PT,sans-serif;
+    font-weight: bold;
+    font-size: 60px;
     line-height: 30px;
     letter-spacing: 0.03em;
-}
-
-
-/* Escape room divs */
-
-.first_escpaperoom_container {
-    background-color: brown;
-    flex-direction: column;
-}
-
-
-/* Container holding the image and the text */
-.container {
-    position: relative;
-    text-align: center;
-    height: 550px;
-    width: 550px;
-    margin-left: 200px;
-
-
+    
 }
 
 
 
-/* Bottom left text */
-.bottom-left {
-    position: absolute;
-    bottom: -25px;
-    left: 0px;
+.flex_for_img{
+    display: flex;
+    width: 100%;
+    
 }
 
-.Triton_heading {
-    position: absolute;
-    color: #ffffff;
-    font-family: Futura PT;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    width: 500px;
-    bottom: 30px;
-    left: -130px;
+    .first_escaperoom_container{
+        height: 50%;
+        width: 100%;
+       display: flex;
+        margin-left: 200px;
+    
+        
+    }
 
-}
-
-.read_more {
-    position: absolute;
-    color: #ffffff;
-    font-family: Futura PT;
-    font-style: normal;
-    font-weight: normal;
-    width: 200px;
-    bottom: 20px;
-    left: -20px;
-    font-size: 24px;
-}
-
-.container2 {
+    .container{
         position: relative;
         text-align: center;
-        height: 550px;
-        width: 550px;
-        margin-left: 200px;
+        
+margin-top: 30px;
+margin-bottom: 20px;
+    }
 
+    .bottom_left{
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+
+ 
 
     }
+
+    .Triton_heading {
+        font-size: 50px;
+        font-family: Futura PT,sans-serif;
+        font-weight: normal;
+    }
+
+    .read_more {
+          font-size: 24px;
+          font-family: Futura PT,sans-serif;
+          font-weight: normal;
+        
+    }
+
+    .bottom_left2{
+        position: absolute;
+        bottom: 1px;
+        left: 19px;
+        
+       
+      
+          }
+
+          .overlay {
+            position: absolute; 
+            bottom: 0; 
+            background: rgb(0, 0, 0);
+            background: rgba(0, 0, 0, 0.5); /* Black see-through */
+            color: #f1f1f1; 
+            width: 100%;
+            transition: .5s ease;
+            opacity:0;
+            color: white;
+            font-size: 100px;
+            
+            text-align: center;
+          }
+          
+          .container:hover .overlay {
+            opacity: 1;
+          }
+
+      
+         
