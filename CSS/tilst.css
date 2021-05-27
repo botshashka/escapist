@@ -82,11 +82,8 @@ body {
 /* New mission in Tilst img*/
 
 .tilst_img_box{
-position: absolute;
-width: 1578px;
-height: 814px;
-left: 26px;
-top: 832px;
+margin-top: 800px;
+margin-left: 150px;
 }
 
 
