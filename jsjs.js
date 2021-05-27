@@ -20,5 +20,8 @@ var x = setInterval(function() {
     }
 }, 1000);
 
+$('input').on('change', function () {
+    $('body').toggleClass('blue');
+});
 
 
