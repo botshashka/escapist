@@ -43,6 +43,7 @@ body {
     font-size: 22px;
     line-height: 30px;
     letter-spacing: 0.03em;
+
 }
 
 
@@ -59,6 +60,8 @@ body {
     letter-spacing: 0.03em;
     float: right;
     margin-top: -100px;
+    margin-right: 133px;
+    margin-top: -100px;
 }
 
 .contact_header {
@@ -69,13 +72,15 @@ body {
     font-size: 22px;
     line-height: 30px;
     letter-spacing: 0.03em;
-
 }
 
 .contact_paragraph {
     color: #d4d4d4;
 }
 
+.contact_paragraph {
+    color: #d4d4d4;
+}
 
 /* SoMe Icon section */
 
@@ -91,12 +96,20 @@ body {
     width: 60px;
 }
 
-.map{
+.map {
     background-color: blue;
 }
 
+/* Map locations */
 
+.map_container {
+    width: 1304px;
+}
 
+.first_map {
+    width: 754px;
+    height: 754px;
+}
 
 .notifications-container {
     width: 100%;
@@ -104,4 +117,12 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+.map_box {
+    background-color: khaki;
+}
+
+.map_box2 {
+    background-color: indigo;
 }
