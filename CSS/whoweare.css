@@ -46,6 +46,38 @@ body {
 }
 
 
+/* Contact Box */
+
+.contact_box {
+    width: 638px;
+    height: 267px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    float: right;
+    margin-right: 133px;
+    margin-top: -100px;
+}
+
+.contact_header {
+    color: #ffffff;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+
+}
+
+.contact_paragraph {
+    color: #d4d4d4;
+}
+
+
 /* SoMe Icon section */
 
 .some_icons_box {
@@ -60,25 +92,17 @@ body {
     width: 60px;
 }
 
-
-/* Map locations */
-
-.first_map {
-    width: 754px;
-    height: 754px;
-    margin-left: 500px;
+.map{
+    background-color: blue;
 }
 
-.second_map {
-    width: 754px;
-    height: 754px;
 
-}
 
-.map_box {
-    background-color: aqua;
-}
 
-.second_map_box {
-    background-color: brown;
+.notifications-container {
+    width: 100%;
+    font-family: Nunito;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
