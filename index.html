@@ -7,12 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="Dare to escape? Prepare for an unparalleled experience. Try the newest and most innovative escape room experience in Aarhus with constantly changing room designs.">
-    <title>Escapist</title>
+    <title>Homepage | Escapist</title>
     <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="slideshow.css">
     <link rel="stylesheet" href="https://use.typekit.net/ped3hpj.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
-
 </head>
 
 <body>
@@ -31,8 +31,13 @@
     </header>
 
     <div class="big-picture">
-        <h1>DARE TO ESCAPE</h1>
-        <h1 id=questionmark>?</h1>
+        <img class="mySlides" src="img/slideshow1.jpg">
+        <img class="mySlides" src="img/slideshow2.jpg">
+        <img class="mySlides" src="img/slideshow3.jpg">
+        <div class="slideshow-text">
+            <h1>DARE TO ESCAPE</h1>
+            <h1 id=questionmark>?</h1>
+        </div>
     </div>
 
     <div class="introduction">
@@ -42,34 +47,31 @@
                 designs and game masters that always make sure you’ll enjoy yourself to the fullest.</p>
         </div>
     </div>
-    <div class="carousel">
-        <div class="container">
-            <input type="radio" name="slider" id="item-1" checked>
-            <input type="radio" name="slider" id="item-2">
-            <input type="radio" name="slider" id="item-3">
-            <div class="cards">
-                <label class="card" for="item-1" id="song-1">
-                    <img class="carousel-img"
-                        src="https://images.unsplash.com/photo-1530651788726-1dbf58eeef1f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=882&q=80"
-                        alt="song">
-                </label>
-                <label class="card" for="item-2" id="song-2">
-                    <img class="carousel-img"
-                        src="https://images.unsplash.com/photo-1559386484-97dfc0e15539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80"
-                        alt="song">
-                </label>
-                <label class="card" for="item-3" id="song-3">
-                    <img class="carousel-img"
-                        src="https://images.unsplash.com/photo-1533461502717-83546f485d24?ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60"
-                        alt="song">
-                </label>
+
+    <div class="rooms">
+        <a href="diamond.html">
+            <div class="room" id="room1" style="background-image: url(img/room1.jpg);">
+                <p class="room-text">Can you solve curator’s riddles and steal the incredibly valuable Bol’shoy diamond
+                    before the police catches you red-handed?</p>
+                <h4>Read more ></h4>
+                <h2 class="room-name">The Great Diamond Heist</h2>
             </div>
-        </div>
+        </a>
+        <a href="Uss.html">
+            <div class="room" id="room2" style="background-image: url(img/room2.jpg);">
+                <p class="room-text">Find out how to stop the nuclear war between the Soviet Union and United States,
+                    all while overcoming various challenges and puzzles.</p>
+                <h4>Read more ></h4>
+                <h2 class="room-name">USS Triton</h2>
+            </div>
+        </a>
     </div>
 
-    <h1 id="coming_soon">Coming soon</h1>
-    <hr id="straight_line">
-    <p id="clock"></p>
+    <div class="Tilst-countdown">
+        <h1 id="coming_soon">COMING SOON</h1>
+        <hr id="straight_line">
+        <p id="clock"></p>
+    </div>
 
 
     <div class="footer">
@@ -103,11 +105,10 @@
                 <img src="img/SoMe img/iconfinder_18-tripadvisor_travel_social_4202797 1.png" alt="Tripadvisor"
                     width="40px"></a>
         </div>
-
-
     </div>
 
     <script src="jsjs.js"></script>
+    <script src="slideshow.js"></script>
 </body>
 
 
