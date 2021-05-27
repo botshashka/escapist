@@ -6,6 +6,13 @@ body{
 }
 
 
+/*Background img*/
+
+body {
+  background-image: url(../img/background2.jpg);
+}
+
+
 /* top part of the page */
 
 .top_box{
