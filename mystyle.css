@@ -39,6 +39,10 @@ a{
 
 }
 
+.book-button{
+    padding-right: 40px;
+}
+
 .active_menu_item{
     text-decoration: underline;
 }
