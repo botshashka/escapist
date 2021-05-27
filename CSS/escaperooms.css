@@ -11,8 +11,7 @@
 /*Background img*/
 
 body {
-    background-color: black;
-    color: #ffffff;
+    background-image: url(../img/background2.jpg);
 }
 
 
@@ -35,7 +34,7 @@ body {
     color: #d4d4d4;
     font-family: Futura PT,sans-serif;
     font-weight: bold;
-    font-size: 60px;
+    font-size: 22px;
     line-height: 30px;
     letter-spacing: 0.03em;
     

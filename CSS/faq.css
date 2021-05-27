@@ -1,7 +1,9 @@
+/* Background img*/
 body {
-    background-image: url("img/background2.jpg");
-    background-color: 000000;
+    background-image: url(../img/background2.jpg);
 }
+
+/* Styling for the FAQ and Our team page*/
 
 #container {
     width: 80%;
@@ -21,6 +23,8 @@ body {
     padding-top: 10px;
     margin: 20px;
 }
+
+/* Styling for the subtitles and text*/
 
 #faq_title {
     font-family: 'futura-pt', 'Arial', sans-serif;

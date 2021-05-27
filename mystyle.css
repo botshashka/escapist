@@ -39,6 +39,10 @@ a{
 
 }
 
+.active_menu_item{
+    text-decoration: underline;
+}
+
 /* -------- styling for the title for Tilst opening ----------------- */
 #coming_soon {
     text-align: center;
