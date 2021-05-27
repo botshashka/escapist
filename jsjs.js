@@ -1,6 +1,6 @@
 
 /* ---------- this is the javascript for the clock. start by setting out the date that you wish for it to ountdown from ------------- */
-var countDownDate = new Date("June 15, 2021, 15:20:00").getTime();
+var countDownDate = new Date("June 28, 2021, 15:20:00").getTime();
 /* ---------------- this tells it to countdown while updating every second ------------------------- */
 var x = setInterval(function() {
  /* ------------------- this tells it to take the current date and time ----------- */   
@@ -19,3 +19,9 @@ var x = setInterval(function() {
         document.getElementById("clock").innerHTML = "Expired";
     }
 }, 1000);
+
+$('input').on('change', function () {
+    $('body').toggleClass('blue');
+});
+
+

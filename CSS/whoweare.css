@@ -59,6 +59,7 @@ body {
     line-height: 30px;
     letter-spacing: 0.03em;
     float: right;
+    margin-top: -100px;
     margin-right: 133px;
     margin-top: -100px;
    }
@@ -71,7 +72,10 @@ body {
     font-size: 22px;
     line-height: 30px;
     letter-spacing: 0.03em;
-    
+}
+
+.contact_paragraph {
+    color: #d4d4d4;
 }
 
 .contact_paragraph{
@@ -92,6 +96,9 @@ body {
     width: 60px;
 }
 
+.map{
+    background-color: blue;
+}
 
 /* Map locations */
 
@@ -102,13 +109,17 @@ body {
 .first_map {
     width: 754px;
     height: 754px;
-    
 }
 
-.second_map {
-    width: 754px;
-    height: 754px;
 
+
+
+.notifications-container {
+    width: 100%;
+    font-family: Nunito;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .map_box {
@@ -117,5 +128,4 @@ body {
 
 .map_box2 {
     background-color: indigo;
-  
 }

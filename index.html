@@ -5,36 +5,109 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Dare to escape? Prepare for an unparalleled experience. Try the newest and most innovative escape room experience in Aarhus with constantly changing room designs.">
     <title>Escapist</title>
     <link rel="stylesheet" href="mystyle.css">
     <link rel="stylesheet" href="https://use.typekit.net/ped3hpj.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
     <header>
-        <img src="img/escapist-logo.png" alt="Escapist logo">
+        <a href="index.html"><img src="img/escapist-logo.png" alt="Escapist logo"></a>
         <div class="nav-items">
-            <a href="">Escape rooms</a>
-            <a href="">About us</a>
-            <a href="">FAQ</a>
-            <a href="">Jobs/meet the team</a>
-            <a href="">
-                <div class="book-button">
-                    <img src="img/button-background.png">
-                </div>
+            <a href="escaperooms.html">Escape rooms</a>
+            <a href="who_we_are.html">About us</a>
+            <a href="jobs.html">Our Team</a>
+            <a href="faq.html">FAQ</a>
+            <div class="book-button">
+                <img src="/img/CTA.svg" alt="CTA Button">
+            </div>
             </a>
         </div>
     </header>
+
+    <div class="big-picture">
+        <h1>DARE TO ESCAPE</h1>
+        <h1 id=questionmark>?</h1>
+    </div>
+
+    <div class="introduction">
+        <div class="intro-text">
+            <h3>Prepare for an unparalleled experience</h3>
+            <p>Try the newest and most innovative escape room experience in Aarhus, with constantly changing room
+                designs and game masters that always make sure you’ll enjoy yourself to the fullest.</p>
+        </div>
+    </div>
+    <div class="carousel">
+        <div class="container">
+            <input type="radio" name="slider" id="item-1" checked>
+            <input type="radio" name="slider" id="item-2">
+            <input type="radio" name="slider" id="item-3">
+            <div class="cards">
+                <label class="card" for="item-1" id="song-1">
+                    <img class="carousel-img"
+                        src="https://images.unsplash.com/photo-1530651788726-1dbf58eeef1f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=882&q=80"
+                        alt="song">
+                </label>
+                <label class="card" for="item-2" id="song-2">
+                    <img class="carousel-img"
+                        src="https://images.unsplash.com/photo-1559386484-97dfc0e15539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80"
+                        alt="song">
+                </label>
+                <label class="card" for="item-3" id="song-3">
+                    <img class="carousel-img"
+                        src="https://images.unsplash.com/photo-1533461502717-83546f485d24?ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60"
+                        alt="song">
+                </label>
+            </div>
+        </div>
+    </div>
 
     <h1 id="coming_soon">Coming soon</h1>
     <hr id="straight_line">
     <p id="clock"></p>
 
 
-    <script src="jsjs.js"></script>
+    <div class="footer">
+        <div class="li_style1">
+            <ul style="list-style-type:none;">
+                <li>Langkærvej 2B</li>
+                <li>8381 Tilst</li>
+                <br>
+                <li>8111 6003</li>
+            </ul>
+        </div>
 
+        <div class="li_style2">
+            <ul style="list-style-type:none;">
+                <li>Klostergade 82</li>
+                <li>8000 Aarhus C</li>
+                <br>
+                <li>8111 6003</li>
+            </ul>
+        </div>
+
+        <div class="social_style">
+            <a href="https://www.facebook.com/escapistaarhus"> <img src="img/SoMe img/x38 0 facebook.png" alt="Facebook"
+                    width="40px"></a>
+            <a href="https://www.instagram.com/escapist_aarhus/"> <img src="img/SoMe img/x36 2 instagram.png"
+                    alt="Instagram" width="40px"></a>
+            <a href="mailto:someone@yoursite.com"> <img src="img/SoMe img/x31 12 gmail x2C  email x2C  mail.png"
+                    alt="mail" width="40px"></a>
+            <a
+                href="https://www.tripadvisor.dk/Attraction_Review-g189530-d12519332-Reviews-Escapist_Aarhus-Aarhus_East_Jutland_Jutland.html">
+                <img src="img/SoMe img/iconfinder_18-tripadvisor_travel_social_4202797 1.png" alt="Tripadvisor"
+                    width="40px"></a>
+        </div>
+
+
+    </div>
+
+    <script src="jsjs.js"></script>
 </body>
 
 
