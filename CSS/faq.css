@@ -1,4 +1,15 @@
-/* Background img*/
+/* Basic css stuff*/
+
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* Background img */
+
 body {
     background-image: url(../img/background2.jpg);
 }

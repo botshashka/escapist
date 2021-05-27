@@ -43,12 +43,13 @@ body {
     font-size: 22px;
     line-height: 30px;
     letter-spacing: 0.03em;
+
 }
 
 
 /* Contact Box */
 
-.contact_box {
+.contact_box{       
     width: 638px;
     height: 267px;
     font-family: Roboto;
@@ -59,9 +60,11 @@ body {
     letter-spacing: 0.03em;
     float: right;
     margin-top: -100px;
-}
+    margin-right: 133px;
+    margin-top: -100px;
+   }
 
-.contact_header {
+.contact_header{
     color: #ffffff;
     font-family: Roboto;
     font-style: normal;
@@ -69,13 +72,15 @@ body {
     font-size: 22px;
     line-height: 30px;
     letter-spacing: 0.03em;
-
 }
 
 .contact_paragraph {
     color: #d4d4d4;
 }
 
+.contact_paragraph{
+    color: #d4d4d4;
+}
 
 /* SoMe Icon section */
 
@@ -95,6 +100,17 @@ body {
     background-color: blue;
 }
 
+/* Map locations */
+
+.map_container{
+    width: 1304px;
+}
+
+.first_map {
+    width: 754px;
+    height: 754px;
+}
+
 
 
 
@@ -104,4 +120,12 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+.map_box {
+    background-color:khaki;
+   } 
+
+.map_box2 {
+    background-color: indigo;
 }
