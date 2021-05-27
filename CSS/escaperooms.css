@@ -21,13 +21,14 @@ body {
 .escape_text_box {
    
     color: #d4d4d4;
-    font-family: Futura PT,sans-serif;
+    font-family: futura-pt, sans-serif;
     font-weight: lighter;
     font-size: 22px;
     line-height: 30px;
-    letter-spacing: 0.03em;
-    margin-left: 20px;
+    margin-left:   200px;
     padding-right: 100px;
+    margin-bottom: 80px;
+    margin-top: 80px;
 }
 
 .escape_heading {
@@ -53,6 +54,7 @@ body {
         width: 100%;
        display: flex;
         margin-left: 200px;
+        
     
         
     }
@@ -60,6 +62,7 @@ body {
     .container{
         position: relative;
         text-align: center;
+     
         
 margin-top: 30px;
 margin-bottom: 20px;
@@ -67,7 +70,7 @@ margin-bottom: 20px;
 
     .bottom_left{
   position: absolute;
-  bottom: 8px;
+  bottom: 20px;
   left: 16px;
 
  
@@ -75,9 +78,10 @@ margin-bottom: 20px;
     }
 
     .Triton_heading {
-        font-size: 50px;
+        font-size: 40px;
         font-family: Futura PT,sans-serif;
         font-weight: normal;
+     
     }
 
     .read_more {
@@ -96,6 +100,5 @@ margin-bottom: 20px;
       
           }
 
-   
       
          
