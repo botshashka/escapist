@@ -49,7 +49,7 @@ body {
 
 /* Contact Box */
 
-.contact_box{       
+.contact_box {
     width: 638px;
     height: 267px;
     font-family: Roboto;
@@ -62,9 +62,9 @@ body {
     margin-top: -100px;
     margin-right: 133px;
     margin-top: -100px;
-   }
+}
 
-.contact_header{
+.contact_header {
     color: #ffffff;
     font-family: Roboto;
     font-style: normal;
@@ -78,7 +78,7 @@ body {
     color: #d4d4d4;
 }
 
-.contact_paragraph{
+.contact_paragraph {
     color: #d4d4d4;
 }
 
@@ -96,13 +96,13 @@ body {
     width: 60px;
 }
 
-.map{
+.map {
     background-color: blue;
 }
 
 /* Map locations */
 
-.map_container{
+.map_container {
     width: 1304px;
 }
 
@@ -110,9 +110,6 @@ body {
     width: 754px;
     height: 754px;
 }
-
-
-
 
 .notifications-container {
     width: 100%;
@@ -123,8 +120,8 @@ body {
 }
 
 .map_box {
-    background-color:khaki;
-   } 
+    background-color: khaki;
+}
 
 .map_box2 {
     background-color: indigo;
