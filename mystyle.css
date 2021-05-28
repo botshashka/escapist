@@ -96,6 +96,7 @@ a {
 .introduction {
     display: flex;
     margin: 100px 91px;
+    justify-content: space-between;
 }
 
 .intro-text {
@@ -115,6 +116,10 @@ p {
 }
 
 /* Intro gallery */
+
+.intro-gallery {
+}
+
 /* -------- Rooms -------- */
 
 .rooms {
@@ -200,7 +205,13 @@ p {
     width: 48%;
 }
 
-.seemore {
+#button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.reviews button {
+    display: inline-block;
     background: #DE314F;
     width: 218px;
     height: 54px;
