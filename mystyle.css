@@ -17,7 +17,6 @@ body {
 body {
     font-family: futura-pt, sans-serif;
     color: white;
-    background: #0E0E0E;
 }
 
 /* ------- Header ------- */
@@ -30,6 +29,7 @@ header {
     top: 0;
     width: 100%;
     z-index: 2;
+    padding-left: 10px;
 }
 
 .nav-items {
@@ -47,11 +47,10 @@ a {
     color: white;
     font-family: 'futura-pt', Arial, Helvetica, sans-serif;
     font-size: 21px;
-
 }
 
 .book-button {
-    padding-right: 40xpx;
+    padding-right: 40px;
 }
 
 .active_menu_item {
@@ -92,11 +91,12 @@ a {
     color: #BF1B38;
 }
 
-/* Introduction */
+/* -------- Introduction -------- */
 
 .introduction {
     display: flex;
     margin: 100px 91px;
+    justify-content: space-between;
 }
 
 .intro-text {
@@ -115,6 +115,11 @@ p {
     color: #c9c9c9;
 }
 
+/* Intro gallery */
+
+.intro-gallery {
+}
+
 /* -------- Rooms -------- */
 
 .rooms {
@@ -129,8 +134,8 @@ p {
     display: flex;
     flex-direction: column-reverse;
     background-repeat: no-repeat;
-    height: 756px;
-    width: 756px;
+    height: 40vw;
+    width: 40vw;
     padding-left: 71px;
 }
 
@@ -138,7 +143,7 @@ p {
     position: absolute;
     width: 70%;
     left: 71px;
-    top: 431px;
+    top: 330px;
     font-size: 26px;
     line-height: 33px;
     display: none;
@@ -179,6 +184,42 @@ p {
 
 #room2:hover>.room-name {
     opacity: 40%;
+}
+
+/* -------- Reviews -------- */
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+    margin: 80px 60px;
+    margin-top: 150px;
+}
+
+.review-line1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.review-line1 img {
+    width: 48%;
+}
+
+#button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.reviews button {
+    display: inline-block;
+    background: #DE314F;
+    width: 218px;
+    height: 54px;
+    color: white;
+    font-size: 21px;
+    font-family: 'futura-pt', sans-serif;
+    border: none;
+    margin: 50px auto;
 }
 
 /* ------- Countdown to Tilst opening -------- */
