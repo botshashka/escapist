@@ -11,7 +11,7 @@
 /* Background img */
 
 body {
-    background-image: url(../img/background2.jpg);
+    background-image: url(/img/background2.jpg);
 }
 
 /* Styling for the FAQ and Our team page*/
@@ -21,6 +21,7 @@ body {
     height: 200px;
     margin: auto;
     padding: 10px;
+    margin-top: 50px;
 }
 
 #left {
