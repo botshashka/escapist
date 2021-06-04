@@ -11,7 +11,7 @@
 /* Background img */
 
 body {
-    background-image: url(/img/background2.jpg);
+    background-image: url(../img/background2.jpg);
 }
 
 /* Styling for the FAQ and Our team page*/
